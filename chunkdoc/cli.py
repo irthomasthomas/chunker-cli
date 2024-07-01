@@ -2,8 +2,7 @@ import argparse
 import sys
 from .chunker import Chunker, get_chunking_strategy
 from .config import Config
-from .input_handlers import get_input_handler
-from .output_handlers import get_output_handler
+from .format_handlers import get_input_handler, get_output_handler
 
 def main():
     config = Config()
